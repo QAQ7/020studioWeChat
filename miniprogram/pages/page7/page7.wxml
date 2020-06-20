@@ -1,0 +1,6 @@
+<!--miniprogram/pages/page7/page7.wxml-->
+<view class = "container">
+  <view class = "echart">
+      <ec-canvas id="mychart" canvas-id="mychart-line" ec="{{ ec }}"></ec-canvas>
+  </view>
+</view>

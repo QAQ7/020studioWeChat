@@ -1,0 +1,29 @@
+/* miniprogram/pages/page7/page7.wxss */
+.echart{
+  position: relative;
+
+  margin-top:200rpx;
+ /* bottom: 200rpx;
+  left: 50rpx;
+  right: 50rpx;*/
+
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.container{
+  position: absolute;
+  top:0rpx;
+  bottom: 0rpx;
+  left: 0rpx;
+  right: 0rpx;
+  background-color: #268583;
+}
+
+ec-canvas{
+  width: 650rpx;
+  height: 500rpx;
+  background-color: #ffffff;
+  border-radius: 10px;
+}

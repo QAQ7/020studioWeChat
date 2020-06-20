@@ -1,0 +1,29 @@
+/* miniprogram/pages/page9/page9.wxss */
+ 
+.echart{
+
+  margin-top: 40rpx;
+  margin-left: 40rpx;
+  margin-right: 40rpx;
+
+  display: flex;
+ 
+  flex-direction: column;
+ 
+  box-sizing: border-box;
+
+  background-color: #FFFFFF;
+
+  border-radius: 20rpx;
+ 
+}
+ 
+
+ 
+ec-canvas{
+ 
+  width: 100%;
+ 
+  height: 500rpx;
+ 
+}
